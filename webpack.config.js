@@ -19,14 +19,14 @@ module.exports = {
       filename: '[name].css'
     })
   ],
-  optimization: {
-    minimizer: [
-      new TerserWebpackPlugin()
-    ],
-    splitChunks: {
-      chunks: 'all'
-    }
-  },
+  // optimization: {
+  //   minimizer: [
+  //     new TerserWebpackPlugin()
+  //   ],
+  //   splitChunks: {
+  //     chunks: 'all'
+  //   }
+  // },
   module: {
     rules: [
       { test: /\.css$/, use: ['style-loader', 'css-loader'] }
