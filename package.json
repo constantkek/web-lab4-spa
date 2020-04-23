@@ -1,0 +1,30 @@
+{
+  "name": "lab4-programming",
+  "version": "1.0.0",
+  "description": "single page application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "npx webpack --watch"
+  },
+  "keywords": [
+    "spa",
+    "lab4",
+    "js",
+    "webpack"
+  ],
+  "author": "Konstantin Kletsyn <kkletsyn@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^3.5.2",
+    "html-webpack-plugin": "^4.2.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "style-loader": "^1.1.4",
+    "terser-webpack-plugin": "^2.3.5",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "jquery": "^3.5.0"
+  }
+}
